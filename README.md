@@ -1,6 +1,6 @@
 # Location-Based_WSN
 
-📌 Description
+Description:
 
 This project was developed alongside my research for a thesis paper in Computer Engineering at California State University, Fullerton. The research focused on the design and implementation of a location-based wireless sensor network (WSN).
 
@@ -8,7 +8,7 @@ As part of this thesis, I developed a WSN with environmental monitoring capabili
 
 The network allowed selected nodes to determine the distance to other nodes of interest, specifically the sensor node. The system estimated the one-hop distance between nodes using P2P measurements.
 
-🛠 Network Architecture & Implementation
+Network Architecture & Implementation:
 
 The network structure consisted of six nodes, each with a specific role:
 
@@ -30,7 +30,7 @@ The anchor nodes were placed between them to enable distance calculations.
 
 This simple yet effective layout allowed for intuitive distance estimation, where the client-to-anchor and anchor-to-sensor measurements were combined to determine the total client-to-sensor distance.
 
-📡 Distance Measurement & Localization
+Distance Measurement & Localization:
 
 🔹 Single-Hop Peer-to-Peer (P2P) Measurements – Nodes measured distances between direct neighbors in the Bluetooth Mesh network.
 
@@ -40,7 +40,7 @@ This simple yet effective layout allowed for intuitive distance estimation, wher
 
 🔹 Environmental Considerations – This method is most accurate in environments where nodes share the same elevation (Z-axis), as it does not account for height differences due to the lack of an antenna matrix.
 
-📄 Additional Resources
+Additional Resources:
 For more details, refer to the thesis report and implementation code in this repository.
 
 Demonstration video comming soon.
